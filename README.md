@@ -1,4 +1,4 @@
-﻿# Job Application Tracker
+﻿# Job Tracker
 
 A Kanban-style board to track job applications across countries (Canada, Switzerland, UAE/KSA, South Korea, India).
 
@@ -19,7 +19,7 @@ A Kanban-style board to track job applications across countries (Canada, Switzer
 
 ## Live Demo
 
-https://YOUR-USERNAME.github.io/job-application-tracker/
+https://komalpatel28.github.io/Job-Tracker/
 
 ## Screenshot
 
