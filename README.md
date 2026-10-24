@@ -21,10 +21,6 @@ A Kanban-style board to track job applications across countries (Canada, Switzer
 
 https://komalpatel28.github.io/Job-Tracker/
 
-## Screenshot
-
-![Job Tracker](screenshot.png)
-
 ## How to Run
 
 1. Download or clone this repository
