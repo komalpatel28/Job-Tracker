@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Track your job applications across countries with a simple Kanban board." />
+  <title>Job Application Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Job Application Tracker</h1>
+      <p id="count" class="muted"></p>
+    </header>
+
+    <form id="job-form" class="job-form">
+      <input id="company" placeholder="Company" required />
+      <input id="role" placeholder="Role" required />
+      <select id="country" aria-label="Country"></select>
+      <input id="link" type="url" placeholder="Job link (optional)" />
+      <input id="notes" placeholder="Notes (optional)" />
+      <button type="submit" class="btn-primary">Add Job</button>
+    </form>
+
+    <div class="toolbar">
+      <input id="search" placeholder="Search company or role" />
+      <select id="filter" aria-label="Filter by country"></select>
+    </div>
+
+    <section id="board" class="board"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
